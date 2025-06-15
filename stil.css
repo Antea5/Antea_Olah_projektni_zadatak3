@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*pou CSS Document */
+.pozadina1{
+	background-image: url("pozadina1.jpg")
+}
+
+.pozadina2{
+	background-image: url("pozadina2.jpg")
+}
+
+h1 {
+	font-family: AnteaOlah ;
+	color: hotpink;
+	text-align: center;
+	font-weight: 350;
+	color: hotpink;
+	padding: 20px 40px;
+}
+
+h2 {
+	font-family: Times New Roman;
+	color: hotpink;
+	padding:20px;
+	Font-weight: 300;
+	
+}
+p{
+	color: rgba(70,172,58,1.00);
+	font-family: Lucida Granda;
+	font-size: 30px;
+	background-color: rgba(227,200,223,1.00);
+	padding: 20px;
+	font-weight: 300;
+	width: 900px;
+}
+p2{
+	color: rgba(188,48,191,1.00);
+	font-family: Lucida Granda;
+	font-size: 30px;
+	background-color: rgba(189,168,186,1.00);
+	padding: 20px;
+	font-weight: 300;
+	width: 900px;
+}
+
+
+
+ul.nav-list {
+	list-style-type: none;
+	mergin: 0;
+	padding: 0;
+	display: flex;
+	gap: 10px;
+}
+
+ul.nav-list li a {
+	display: inline-block;
+	background-color: #0A6210;
+	color:aquamarine;
+	padding: 10px 15px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-family: Times New Roman;
+	text-align: center;
+}
+
+ul.nav-list li a:hover {
+	background-color: azure
+}
+
+a: link{
+	color:aquamarine;
+	background-color: #0A6210;
+	padding:5px;
+	line-height:40px;
+	border:1px solid #80D1AA;
+}
+
+
